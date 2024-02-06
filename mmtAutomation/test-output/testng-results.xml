@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-07T01:06:24 IST" name="Default suite" finished-at="2024-02-07T01:06:42 IST" duration-ms="17317">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T01:06:24 IST" name="Default test" finished-at="2024-02-07T01:06:42 IST" duration-ms="17317">
+      <class name="com.mmt.mmtAutomation">
+        <test-method signature="openBrowser()[pri:0, instance:com.mmt.mmtAutomation@c7a975a]" started-at="2024-02-07T01:06:24 IST" name="openBrowser" finished-at="2024-02-07T01:06:30 IST" duration-ms="5920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="locationFrom()[pri:0, instance:com.mmt.mmtAutomation@c7a975a]" started-at="2024-02-07T01:06:30 IST" name="locationFrom" finished-at="2024-02-07T01:06:33 IST" depends-on-methods="com.mmt.mmtAutomation.openBrowser" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationFrom -->
+        <test-method signature="locationTo()[pri:0, instance:com.mmt.mmtAutomation@c7a975a]" started-at="2024-02-07T01:06:33 IST" name="locationTo" finished-at="2024-02-07T01:06:36 IST" depends-on-methods="com.mmt.mmtAutomation.locationFrom" duration-ms="2956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationTo -->
+        <test-method signature="dates()[pri:0, instance:com.mmt.mmtAutomation@c7a975a]" started-at="2024-02-07T01:06:36 IST" name="dates" finished-at="2024-02-07T01:06:37 IST" depends-on-methods="com.mmt.mmtAutomation.locationTo" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dates -->
+        <test-method signature="passanger()[pri:0, instance:com.mmt.mmtAutomation@c7a975a]" started-at="2024-02-07T01:06:37 IST" name="passanger" finished-at="2024-02-07T01:06:40 IST" depends-on-methods="com.mmt.mmtAutomation.dates" duration-ms="2778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passanger -->
+        <test-method signature="search()[pri:0, instance:com.mmt.mmtAutomation@c7a975a]" started-at="2024-02-07T01:06:40 IST" name="search" finished-at="2024-02-07T01:06:42 IST" depends-on-methods="com.mmt.mmtAutomation.passanger" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.mmt.mmtAutomation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
