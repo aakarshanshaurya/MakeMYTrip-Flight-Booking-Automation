@@ -1,4 +1,4 @@
-# MakeMYTrip-Flight-Booking-Automation
+# MakeMyTrip-Flight-Booking-Automation
 Automate MakeMyTrip flight booking with Java, Selenium WebDriver &amp; TestNG. The code navigates through various steps required for booking flight tickets such as:
 - Selecting the type of trip
 - Source and destination
