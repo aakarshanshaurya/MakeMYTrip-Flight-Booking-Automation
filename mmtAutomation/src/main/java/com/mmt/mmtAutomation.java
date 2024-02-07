@@ -129,7 +129,7 @@ public class mmtAutomation {
 		WebElement select = driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div[5]/label/span"));
 		select.click();
 						
-		//choosing amount of passengers
+		//choosing number of passengers
 		select = driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div[5]/div[2]/div[1]/ul[1]/li[2]"));
 		select.click();
 				
